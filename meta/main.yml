@@ -1,0 +1,17 @@
+---
+galaxy_info:
+  author: "Torsten Schrade"
+  description: "Installs a MySQL Server on a Debian host. In most parts based on the geerlingguy.mysql role with modifications by @digicademy"
+  company: "Digital Academy – Academy of Sciences and Literature | Mainz"
+  license: "MIT"
+  min_ansible_version: 2.0
+  platforms:
+    - name: Debian
+      versions:
+        - wheezy
+        - jessie
+  galaxy_tags:
+    - mysql
+    - database
+
+dependencies: []
